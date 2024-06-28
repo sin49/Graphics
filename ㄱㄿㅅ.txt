@@ -1,0 +1,21 @@
+API(Application Programming Interface):프로그램 작성을 하기위한 인터페이스
+인터페이스(not클레스): 상호작용을 할수있게 하는 거
+인터페이스(클레스): 클레스를 사전에 설계해둔 가상의 형태
+
+MFC(Microsoft Form Class): MFC 간단 찍먹 해보기(c#배울때 해본적은 있는디):
+https://onedrive.live.com/view.aspx?resid=6D16D8E1C579A2A2%21187154&authkey=!AM5MMAgPN2sKwZM
+
+
+
+
+크로플랫플러그인
+네이티브플러그인
+안드로이드스튜디오:
+플랫폼:
+비동기:
+
+다렉:만들어진 걸로 몇가지 해보는거(opengl?)
+https://onedrive.live.com/view.aspx?resid=6D16D8E1C579A2A2%21187188&authkey=!AM5tvfXHE_Rh-RY
+
+
+
