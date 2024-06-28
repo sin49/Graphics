@@ -42,7 +42,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_WINDOWSPROJECT1));
 
     MSG msg;
-
+    //메시지 받고 처리하는 곳
     // 기본 메시지 루프입니다:
     while (GetMessage(&msg, nullptr, 0, 0))
     {
@@ -51,6 +51,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             TranslateMessage(&msg);
             DispatchMessage(&msg);
         }
+        //받은 메시지에 따라 콜백 실행
     }
 
     return (int) msg.wParam;
@@ -68,7 +69,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     WNDCLASSEXW wcex;
 
     wcex.cbSize = sizeof(WNDCLASSEX);
-    //포인터
+    //함수 포인터
     wcex.style          = CS_HREDRAW | CS_VREDRAW;
     wcex.lpfnWndProc    = WndProc;
     wcex.cbClsExtra     = 0;
@@ -129,6 +130,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     {
     case WM_CREATE://Start(시작할 때)
         CreateWindow(TEXT("button"), TEXT("CAT"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, 20, 20, 100, 25, hWnd, (HMENU)0, hInst, NULL);
+        //CreateWindow(TEXT("button"), TEXT("Dog"), WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, 20, 20, 100, 25, hWnd, (HMENU)1, hInst, NULL);
         break;
     case WM_COMMAND://CallBack(이벤트)
         {
@@ -137,7 +139,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             switch (wmId)
             {
             case 0:
-                MessageBox(hWnd, TEXT("First Button Clicked"), TEXT("Button"), MB_OK);
+                MessageBox(hWnd, TEXT("Meow"), TEXT("Button"), MB_OK);
+                break;
+            case 1:
+                MessageBox(hWnd, TEXT("Bow"), TEXT("Button"), MB_OK);
                 break;
             case IDM_ABOUT:
                 DialogBox(hInst, MAKEINTRESOURCE(IDD_ABOUTBOX), hWnd, About);
