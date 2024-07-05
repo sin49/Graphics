@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GIthub\\Graphics\\WindowsProject1\\WindowsProject1\\WindowsProject1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WindowsProject1\\WindowsProject1\\WindowsProject1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GIthub\\Graphics\\\u3131\u313F\u3145.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u3131\u313F\u3145.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +28,43 @@
               "RelativeDocumentMoniker": "WindowsProject1\\WindowsProject1\\WindowsProject1.cpp",
               "ToolTip": "D:\\GIthub\\Graphics\\WindowsProject1\\WindowsProject1\\WindowsProject1.cpp",
               "RelativeToolTip": "WindowsProject1\\WindowsProject1\\WindowsProject1.cpp",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-28T03:29:12.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "b7cff04a-0d64-4287-96eb-b125940076d0",
+        "Display": 0,
+        "X": -129,
+        "Y": 157,
+        "Width": 1063,
+        "Height": 658,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u3131\u313F\u3145.txt",
+              "DocumentMoniker": "D:\\GIthub\\Graphics\\\u3131\u313F\u3145.txt",
+              "RelativeDocumentMoniker": "\u3131\u313F\u3145.txt",
+              "ToolTip": "D:\\GIthub\\Graphics\\\u3131\u313F\u3145.txt",
+              "RelativeToolTip": "\u3131\u313F\u3145.txt",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAmwGEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-03T03:09:37.056Z",
               "EditorCaption": ""
             }
           ]
